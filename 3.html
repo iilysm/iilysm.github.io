@@ -60,10 +60,7 @@
 						<img class="card-img-top d-block w-100" src="resources/img/report/report1.png" alt="#1">
 						<div class="card-text">
 							<p>
-								"a landscape consisting of 5 parts, 2 seperate but intertwining in the sky filled with
-								propositional logic symbols, 2 intertwined parts filled with computer networks and the
-								idea of a client and a server, a frontend and a backend, and finally one part filled
-								with mathematical code and biometrics connecting the top and the bottom part"
+                            part 1: preprocessing
 							</p>
 						</div>
 					</div>
@@ -71,7 +68,7 @@
 						<img class="card-img-top d-block w-100" src="resources/img/report/report2.png" alt="#2">
 						<div class="card-text">
 							<p>
-								"basquiat dark pokemon"
+								part 2: data cleanup
 							</p>
 						</div>
 					</div>
@@ -79,7 +76,7 @@
 						<img class="card-img-top d-block w-100" src="resources/img/report/report3.png" alt="#3">
 						<div class="card-text">
 							<p>
-								"cyberpunk cityscape made of circuit boards and neon logic gates"
+								part 3: ML preprocessing
 							</p>
 						</div>
 					</div>
@@ -87,7 +84,7 @@
 						<img class="card-img-top d-block w-100" src="resources/img/report/report4.png" alt="#4">
 						<div class="card-text">
 							<p>
-								"surreal geometry garden with fractals and biometrics intertwined"
+								part 3: linear regression model setup
 							</p>
 						</div>
 					</div>
@@ -95,7 +92,7 @@
 						<img class="card-img-top d-block w-100" src="resources/img/report/report5.png" alt="#5">
 						<div class="card-text">
 							<p>
-								"retro-futuristic server room blending frontend and backend motifs"
+								part 4: visualization of model accuracy (not good)
 							</p>
 						</div>
 					</div>
@@ -103,7 +100,7 @@
 						<img class="card-img-top d-block w-100" src="resources/img/report/report6.png" alt="#6">
 						<div class="card-text">
 							<p>
-								"algorithmic landscape connecting code, networks, and logic across layers"
+								part 5: plotting model predictions and conclusion
 							</p>
 						</div>
 					</div>
@@ -122,18 +119,58 @@
 				</button>
 			</div>
 		</div>
+        
+        <div class="description content-spacer">
+            <div class="description">
+                <h2 class="h5">Spotify Data Analysis: Predicting Chart Success</h2>
 
-		<div class="description">
-			<h2 class="h5">Project description</h2>
-			<p class="mb-2">
-				This section provides additional context about the project, including goals, process, and outcomes. You
-				can write as much as you need here to describe the work in detail.
-			</p>
-			<p class="mb-0">
-				Feel free to include links, acknowledgements, and any relevant background information. This area is
-				intended for longer-form text to complement the images above.
-			</p>
-		</div>
+                <p class="mb-2">
+                    Developed during my exchange semester in Japan, this project combines my growing interest in music technology with data science fundamentals.
+                </p>
+
+                <p class="mb-2">
+                    The Objective<br>
+                    We sought to determine if a song's commercial success could be predicted by its intrinsic audio qualities. I utilized a Kaggle dataset of 2023’s most streamed songs, enriched with metadata from the Spotify Audio Features API.
+                </p>
+
+                <p class="mb-2">
+                    Data Pipeline & Exploration<br>
+                    I implemented a data cleaning workflow to handle malformed entries and encode categorical variables. Using exploratory visualization techniques, I mapped out correlations to prepare the dataset for Linear Regression modeling.
+                </p>
+
+                <p class="mb-2">
+                    Critical Analysis<br>
+                    We trained three regression models to evaluate the dataset's predictive power. The results highlighted significant limitations in both the data and the metrics:
+                </p>
+
+                <ul class="mb-3">
+                    <li>
+                        The Limits of Aggregated Features: Models trained exclusively on API metrics (e.g., 'danceability', 'energy') failed to predict stream counts. These low-dimensional, reductive numbers cannot capture the cultural context or perceived quality that actually drives human engagement.
+                    </li>
+                    <br>
+                    <li>
+                        The "Chicken-and-Egg" Problem: While cross-platform playlist presence was the strongest mathematical predictor, we identified this as a circular correlation. Popularity forces songs onto playlists, and playlists enforce popularity. The model essentially mapped the platform's amplification loop rather than uncovering a formula for a hit.
+                    </li>
+                </ul>
+
+                <p class="mb-2">
+                     Conclusion & Industry Outlook<br>
+                     While our model struggled using public metadata, we hypothesize that chart success is predictable—but it requires access to high-fidelity, proprietary data (such as raw audio signal processing or granular user retention logs) that is currently locked away.
+                </p>
+                <p class="mb-2">
+                     The recent closure of the Spotify Audio Features API (Nov 2024) underscores this shift. Originally designed to let third-party developers visualize "taste profiles," these datasets became inadvertent fuel for AI training. The industry's move to deprecate these public endpoints signals the end of the open-data era; user data is no longer a shared utility for insights, but a guarded asset in the age of generative AI.
+                </p>
+
+                <div class="technical-summary mb-4 text-muted">
+                    <strong>Technical Details</strong>
+                    <ul class="mt-1">
+                        <li><strong>Language:</strong> Python (Jupyter Notebooks)</li>
+                        <li><strong>Libraries:</strong> Pandas, Scikit-learn, Matplotlib/Seaborn</li>
+                        <li><strong>Focus:</strong> Data Cleaning, Critical Analysis, Regression Modeling</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
 		<!--button-->
 		<a href="index.html" class="btn btn-secondary">see all</a>

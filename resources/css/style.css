@@ -335,3 +335,27 @@ footer {
     /* Optional: If you want space inside the box instead, use padding */
     /* padding-bottom: 40px; */
 }
+/* Force black text for elements using Bootstrap's mb-2 utility */
+  .mb-1 {
+      color: black;
+  }
+/* Force black text for elements using Bootstrap's mb-2 utility */
+  .mb-2 {
+      color: black;
+  }
+/* Force black text for elements using Bootstrap's mb-2 utility */
+  .mb-3 {
+      color: black;
+  }
+/* Force black text for elements using Bootstrap's mb-2 utility */
+  .mb-4 {
+      color: black;
+  }
+/* Force black text for elements using Bootstrap's mb-2 utility */
+  .mb-5 {
+      color: black;
+  }
+/* Force black text for elements using Bootstrap's mb-2 utility */
+  .card-text {
+      color: black;
+  }

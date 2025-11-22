@@ -327,3 +327,11 @@ footer {
     color: #555;
 
 }
+
+.content-spacer {
+    /* This pushes the next element (the button) down */
+    margin-bottom: 40px;
+    
+    /* Optional: If you want space inside the box instead, use padding */
+    /* padding-bottom: 40px; */
+}

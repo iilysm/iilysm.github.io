@@ -76,8 +76,6 @@
 						<div class="card-text">
 							<p>
 								our main character-NPC, gary the hamster
-								<br>
-								<br>
 							</p>
 						</div>
 					</div>
@@ -86,8 +84,6 @@
 						<div class="card-text">
 							<p>
 								ants leading the way to the next point of interest
-								<br>
-								<br>
 							</p>
 						</div>
 					</div>
@@ -96,8 +92,6 @@
 						<div class="card-text">
 							<p>
 								our expandable minimap, available via button-press
-								<br>
-								<br>
 							</p>
 						</div>
 					</div>
@@ -106,8 +100,6 @@
 						<div class="card-text">
 							<p>
 								sliding puzzle minigame, needs to be completed to unlock next level
-								<br>
-								<br>
 							</p>
 						</div>
 					</div>
@@ -116,8 +108,6 @@
 						<div class="card-text">
 							<p>
 								game soundtrack
-								<br>
-								<br>
 							</p>
 						</div>
 					</div>
@@ -137,27 +127,67 @@
 			</div>
 		</div>
 
-		<div class="description mt-4">
-			<h2 class="h5">Game Soundtrack</h2>
-			<div class="mb-3">
-				<audio id="audio-player" controls loop style="width: 100%; max-width: 600px;">
-					<source src="resources/img/unity/game soundtrack.wav" type="audio/wav">
-					Your browser does not support the audio element.
-				</audio>
-			</div>
-		</div>
+        <div class="description content-spacer">
+            <div class="description">
+                <h2 class="h5">Project Description</h2>
 
-		<div class="description">
-			<h2 class="h5">Project description</h2>
-			<p class="mb-2">
-				This section provides additional context about the project, including goals, process, and outcomes. You
-				can write as much as you need here to describe the work in detail.
-			</p>
-			<p class="mb-0">
-				Feel free to include links, acknowledgements, and any relevant background information. This area is
-				intended for longer-form text to complement the images above.
-			</p>
-		</div>
+                <p class="mb-2">
+                    Developed as part of a Human-Computer Interaction (HCI) research module, this project explores user navigation within virtual spaces. The result is a VR escape-room experience on the <strong>Meta Quest 3</strong> that utilizes diegetic navigation cues—such as dynamic "ant-trails" and compasses—to guide users through complex spatial puzzles.
+                </p>
+                
+                <p class="mb-2">
+                    <strong>Project Management & Pipeline</strong><br>
+                    As the Scrum Master for a team of three, I bridged the gap between creative design and technical implementation. I coordinated our sprint goals using Jira (Scrum) and established a Git workflow that allowed us to collaborate efficiently without stepping on each other's code.
+                </p>
+                <p class="mb-2">
+                    To keep our repository clean, I introduced a weekly integration protocol we internally dubbed "Merge Mondays." This routine helped us resolve merge conflicts early and ensured our main branch remained stable for regular testing.
+                </p>
+                
+                <p class="mb-2">
+                    <strong>Narrative & NPC Logic</strong><br>
+                    I was responsible for the design and technical implementation of "Gary," a companion NPC driven by a custom state machine. This system managed the character's lifecycle, orchestrating his spawn points and triggering context-sensitive dialogue based on the player's real-time progress through the escape room.
+                </p>
+                <p class="mb-2">
+                    To influence user pacing and immersion, I also composed and implemented the original soundtrack (listen below).
+                </p>
+
+                <p class="mb-1"><strong>Key Technical Implementations:</strong></p>
+                <ul class="mb-3">
+                    <li>
+                        <strong>Navigation Systems:</strong> Implemented multiple pathfinding tools using Unity's navigation mesh, including a dynamic visual trail and an expandable minimap UI.
+                    </li>
+                    <br>
+                    <li>
+                        <strong>UI/UX Experimentation:</strong> Designed a "Dark Mode" challenge variant. This timed mode features increased intensity and satirizes modern dark-mode interfaces, serving as a test for user efficiency under visual pressure.
+                    </li>
+                    <br>
+                    <li>
+                        <strong>Interactive Storytelling:</strong> Built a state-machine driven narrative structure that guides the player from the initial puzzle to a cinematic ending sequence.
+                    </li>
+                </ul>
+                
+                <div class="description mt-4">
+                    <h2 class="h5">Game Soundtrack</h2>
+                    <div class="mb-3">
+                        <audio id="audio-player" controls loop style="width: 100%; max-width: 600px;">
+                            <source src="resources/img/unity/game soundtrack.wav" type="audio/wav">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </div>
+                </div>
+                
+                <div class="technical-summary mb-4 text-muted">
+                    <strong>Technical Details</strong>
+                    <ul class="mt-1">
+                        <li><strong>Hardware:</strong> Meta Quest 3</li>
+                        <li><strong>Core Tech:</strong> Unity, OpenXR, C#</li>
+                        <li><strong>Management:</strong> Jira (Scrum), Git/GitHub</li>
+                        <li><strong>Creative Tools:</strong> Ableton Live</li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
 
 		<!--button-->
 		<a href="index.html" class="btn btn-secondary mt-3">see all</a>

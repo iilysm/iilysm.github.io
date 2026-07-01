@@ -32,8 +32,8 @@ header {
     width: 100%;
     margin-bottom: 30px;
     padding: 15px 20px;
-    background-color: rgb(107, 118, 126);
-    /* Retro Grey */
+    background-color: rgb(63, 90, 212);
+    /* CTF Blue */
     font-family: 'Press Start 2P', cursive;
     /* Retro Font */
     font-weight: 400;
@@ -90,7 +90,8 @@ h1 {
 }
 
 p {
-    margin-top: 30px;
+    margin-top: 0;
+    margin-bottom: 1.25rem;
     font-size: 1rem;
     color: #444;
 }
@@ -139,8 +140,8 @@ footer {
     width: 100%;
     margin-top: 80px;
     padding: 20px;
-    background-color: rgb(107, 118, 126);
-    /* Retro Grey */
+    background-color: rgb(63, 90, 212);
+    /* CTF Blue */
     font-family: 'Press Start 2P', cursive;
     /* Retro Font */
     font-size: 0.6rem;
@@ -172,8 +173,8 @@ footer {
     /* Increased spacing as requested */
     padding: 15px;
     /* background-color: transparent; Removed to allow footer background to show or set explicitly */
-    background-color: rgb(107, 118, 126);
-    /* Retro Grey */
+    background-color: rgb(63, 90, 212);
+    /* CTF Blue */
     font-size: 0.8rem;
     color: #fff;
     /* White text */
@@ -305,8 +306,8 @@ footer {
     /* Increased spacing as requested */
     padding: 15px;
     /* background-color: transparent; Removed to allow footer background to show or set explicitly */
-    background-color: rgb(107, 118, 126);
-    /* Retro Grey */
+    background-color: rgb(63, 90, 212);
+    /* CTF Blue */
     font-size: 0.8rem;
     color: #fff;
     /* White text */
@@ -331,31 +332,37 @@ footer {
 .content-spacer {
     /* This pushes the next element (the button) down */
     margin-bottom: 40px;
-    
+
     /* Optional: If you want space inside the box instead, use padding */
     /* padding-bottom: 40px; */
 }
+
 /* Force black text for elements using Bootstrap's mb-2 utility */
-  .mb-1 {
-      color: black;
-  }
+.mb-1 {
+    color: black;
+}
+
 /* Force black text for elements using Bootstrap's mb-2 utility */
-  .mb-2 {
-      color: black;
-  }
+.mb-2 {
+    color: black;
+}
+
 /* Force black text for elements using Bootstrap's mb-2 utility */
-  .mb-3 {
-      color: black;
-  }
+.mb-3 {
+    color: black;
+}
+
 /* Force black text for elements using Bootstrap's mb-2 utility */
-  .mb-4 {
-      color: black;
-  }
+.mb-4 {
+    color: black;
+}
+
 /* Force black text for elements using Bootstrap's mb-2 utility */
-  .mb-5 {
-      color: black;
-  }
+.mb-5 {
+    color: black;
+}
+
 /* Force black text for elements using Bootstrap's mb-2 utility */
-  .card-text {
-      color: black;
-  }
+.card-text {
+    color: black;
+}

@@ -172,53 +172,56 @@
             <div class="description">
                 <h2 class="h5">Flappy Speaker: Grundlagen in Spieleentwicklung & Modding</h2>
 
-                <p class="mb-2">
-                    Als eine meiner ersten formellen Einführungen in die Softwareentwicklung wurde dieses Projekt für
-                    Harvards Online-Kurs GD50 (Einführung in die Spieleentwicklung) abgeschlossen. Die Kernaufgabe
-                    bestand darin, eine bestehende <strong>LÖVE 2D (Lua)</strong>-Implementierung von Flappy Bird
-                    (basierend auf Colton Ogdens Portierung von Dong Nguyens Original) zu dekonstruieren und kreativ zu
-                    modifizieren.
+                <p class="mb-3">
+                    Dieses Projekt entstand im Rahmen von Harvards Online-Kurs GD50 (Introduction to Game Development)
+                    und markiert
+                    meinen Einstieg in die strukturierte Softwareentwicklung. Die Aufgabe: Eine bestehende, Lua-basierte
+                    Implementierung von Flappy Bird im <strong>LÖVE 2D Framework</strong> zu dekonstruieren, zu
+                    verstehen und durch
+                    eigenes Modding kreativ zu transformieren.
                 </p>
 
-                <p class="mb-2">
-                    <strong>Motivation & Erste Schritte</strong><br>
-                    Dieses Projekt diente als meine erste praktische Gelegenheit, einem langjährigen Interesse an
-                    Softwaremodifikation nachzugehen und die Lücke vom analytischen Benutzer zum praktischen Entwickler
-                    zu schließen. Es diente als grundlegende Erfahrung, um zu verstehen, wie man eine bestehende
-                    Codebasis analysiert, Schlüsselvariablen identifiziert und persönliche Kreativität in ein
-                    vorgefertigtes System einbringt.
+                <p class="mb-3">
+                    <strong>Code-Analyse & System-Modifikation</strong><br>
+                    Das Projekt bot mir die perfekte Gelegenheit, die Brücke vom analytischen Systemnutzer zum
+                    praktischen Entwickler
+                    zu schlagen. Die größte Herausforderung war das Deep-Dive in eine fremde Codebasis: Ich analysierte
+                    die
+                    Architektur des Spiels, um mathematische Kernvariablen zu identifizieren. Dadurch konnte ich
+                    Physikparameter
+                    wie Schwerkraft, Spielergeschwindigkeit und das Level-Tempo direkt manipulieren. Um meine eigenen
+                    visuellen Assets
+                    zu integrieren, passte ich zudem die Bounding-Box-Regeln an und verfeinerte die mathematische
+                    Kollisionserkennung.
                 </p>
 
-                <p class="mb-2">
-                    Meine größte technische Herausforderung war das Eintauchen in die bestehende Lua-Codebasis. Ich
-                    analysierte die Struktur des Spiels, um Schlüsselvariablen zu identifizieren und zu modifizieren,
-                    was mir erlaubte, Physikparameter wie Schwerkraft und Geschwindigkeit direkt anzupassen. Ein
-                    wesentlicher Teil des Prozesses war die Anpassung der Bounding-Box-Regeln, um die
-                    Kollisionserkennung für meine neuen, selbst entworfenen Assets zu verfeinern. Dieses technische
-                    Fundament unterstützte einen kompletten kreativen Reskin, für den ich originale Pixelkunst in GIMP
-                    entwarf – wobei ich den Vogel durch einen Lautsprecher und die Rohre durch brennende CDs ersetzte –
-                    und ein unverwechselbares "lila" visuelles Thema etablierte. Obwohl es sich um einen kleinen Mod
-                    handelte, war diese frühe Erfahrung der Verschmelzung von kreativem Ausdruck mit technischer Logik
-                    ein entscheidender Motivator für den Weg, den ich seitdem eingeschlagen habe.
+                <p class="mb-3">
+                    <strong>Kreativer Reskin & Spieldesign</strong><br>
+                    Neben der logischen Code-Ebene verpasste ich dem Spiel einen kompletten kreativen Reskin. In GIMP
+                    entwarf ich
+                    ein eigenständiges "lila" Pixelart-Thema, bei dem der klassische Vogel durch einen Lautsprecher und
+                    die Rohre
+                    durch brennende CDs ersetzt wurden. Diese frühe Erfahrung, kreativen Ausdruck nahtlos mit
+                    technischer Logik
+                    und System-Hacking zu verbinden, war ein entscheidender Meilenstein für meinen heutigen Weg.
                 </p>
 
                 <p class="mb-1"><strong>Wichtige Modifikationen und Fähigkeiten:</strong></p>
-                <ul class="mb-5">
-                    <li>
-                        <strong>Asset-Erstellung:</strong> Entwurf und Implementierung komplett neuer
-                        Pixelart-Texturen (GIMP) und custom Soundeffekte, um ein einzigartiges Thema zu
-                        schaffen.
+                <ul class="mb-4">
+                    <li class="mb-2">
+                        <strong>Code-Dekonstruktion:</strong> Analyse einer bestehenden Codebasis zum tiefen Verständnis
+                        von
+                        Zustandsmanagement (State Management wie 'Start', 'Play', 'Game Over') und Spiellogik.
                     </li>
-                    <br>
-                    <li>
-                        <strong>Physik- & Gameplay-Tuning:</strong> Direkte Bearbeitung von Lua-Skripten, um
-                        Kern-Gameplay-Variablen zu ändern, einschließlich Schwerkraft, Spielergeschwindigkeit und
-                        Level-Tempo.
+                    <li class="mb-2">
+                        <strong>Physik- & Gameplay-Tuning:</strong> Direkte Manipulation von Lua-Skripten zur Anpassung
+                        von
+                        Echtzeit-Variablen und Kollisionsboxen.
                     </li>
-                    <br>
-                    <li>
-                        <strong>Code-Dekonstruktion:</strong> Analyse der bestehenden Codebasis, um Zustandsmanagement
-                        (z. B. 'Start', 'Spiel', 'Game Over'-Zustände) und Kollisionserkennungslogik zu verstehen.
+                    <li class="mb-2">
+                        <strong>Asset-Erstellung:</strong> Design und technische Einbindung komplett neuer
+                        Pixelart-Texturen
+                        (GIMP) und maßgeschneiderter Soundeffekte.
                     </li>
                 </ul>
 
@@ -227,7 +230,7 @@
                     <ul class="mt-1">
                         <li><strong>Plattform:</strong> PC (LÖVE 2D Framework)</li>
                         <li><strong>Sprache:</strong> Lua</li>
-                        <li><strong>Kontext:</strong> Harvard GD50 (Einführung in die Spieleentwicklung)</li>
+                        <li><strong>Kontext:</strong> Harvard GD50 (Introduction to Game Development)</li>
                         <li><strong>Tools:</strong> GIMP, LÖVE 2D</li>
                     </ul>
                 </div>

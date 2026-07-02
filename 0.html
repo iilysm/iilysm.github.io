@@ -103,53 +103,57 @@
 
         <div class="description content-spacer">
             <div class="description">
-                <h2 class="h5">Cybersecurity CTF-Plattform</h2>
+                <h2 class="h5">Cybersecurity CTF Platform</h2>
 
-                <p class="mb-2">
-                    A Capture The Flag (CTF) challenge designed to deliver multi-stage web application and networking
+                <p class="mb-3">
+                    An interactive, multi-stage Capture The Flag (CTF) challenge that seamlessly bridges application
                     security
-                    challenges. This project bridges full-stack development with security engineering, offering hands-on
-                    experience in building virtual environments.
+                    and network security. The best part: The entire project is bundled as a compact "Infrastructure as
+                    Code"
+                    package. Students can simply download the project as a ZIP file, spin it up locally via Vagrant with
+                    a single
+                    command, and start hacking immediately.
                 </p>
 
-                <p class="mb-2">
+                <p class="mb-3">
+                    <strong>The Challenge Flow: From Web to Network</strong><br>
+                    The challenge is designed as a realistic, multi-tiered attack scenario:
+                </p>
+                <ul class="mb-3">
+                    <li class="mb-2"><strong>Application Security (Entry Point):</strong> Players start on a
+                        custom-built Django web application where they must identify and exploit modern web
+                        vulnerabilities.</li>
+                    <li class="mb-2"><strong>Network Security (Transition):</strong> A successful web exploit serves as
+                        the gateway to the command line (CLI). From there, players dive deeper into the isolated VM
+                        network, using tools like Nmap to scan and compromise further targets.</li>
+                </ul>
+
+                <p class="mb-3">
                     <strong>Architecture & Implementation</strong><br>
-                    I architected a 3-VM Vagrant network environment to reliably deliver multi-stage
-                    networking security challenges. This approach ensures that challenge instances are reproducible and
-                    portable across systems.
+                    To safely isolate the network security challenges, I designed a virtual 3-VM network topology using
+                    Vagrant.
+                    This ensures the infrastructure is fully reproducible, portable, and cross-platform without
+                    requiring
+                    complex local setups.
                 </p>
 
-                <p class="mb-2">
-                    At the application level, I developed a Django front-& backend to host the web security
-                    challenges. The platform provides an engaging way to practice and learn offensive security
-                    techniques.
-                </p>
-
-                <p class="mb-1"><strong>Key features and skills:</strong></p>
-                <ul class="mb-5">
-                    <li>
-                        Utilized Vagrant and Bash to provision a complex 3-VM network topology for realistic security
-                        scenarios.
-                    </li>
-                    <br>
-                    <li>
-                        Built the core platform using Python, Django, HTML, and CSS, incorporating a robust backend to
-                        handle challenge state and user validation.
-                    </li>
-                    <br>
-                    <li>
-                        Designed custom challenges focusing on networking and web vulnerabilities to foster practical
-                        learning.
-                    </li>
+                <p class="mb-1"><strong>Key Features:</strong></p>
+                <ul class="mb-4">
+                    <li class="mb-1"><strong>Plug & Play Design:</strong> Fully pre-configured multi-VM environment for
+                        an instant start via Vagrant.</li>
+                    <li class="mb-1"><strong>Full-Stack Core:</strong> Independent platform built with Python, Django,
+                        HTML, and CSS to host the web security challenges.</li>
+                    <li class="mb-1"><strong>Hands-on Offensive Security:</strong> Explores the chaining of digital
+                        attacks (Web Exploitation & Network Scanning).</li>
                 </ul>
 
                 <div class="technical-summary mb-4 text-muted">
                     <strong>Technical Details</strong>
                     <ul class="mt-1">
-                        <li><strong>Platform:</strong> Web, Virtual Machines</li>
+                        <li><strong>Platform:</strong> Web, Virtual Machines (Multi-VM Topology)</li>
                         <li><strong>Languages:</strong> Python, Bash, HTML/CSS</li>
                         <li><strong>Framework:</strong> Django</li>
-                        <li><strong>Tools:</strong> Vagrant, Git</li>
+                        <li><strong>Tools:</strong> Vagrant, Nmap, Git</li>
                     </ul>
                 </div>
             </div>

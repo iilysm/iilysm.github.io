@@ -124,64 +124,34 @@
             <div class="description">
                 <h2 class="h5">Spotify-Datenanalyse: Vorhersage von Chart-Erfolgen</h2>
 
-                <p class="mb-2">
-                    Entwickelt während meines Auslandssemesters in Japan, verbindet dieses Projekt mein wachsendes
-                    Interesse an Musiktechnologie mit den Grundlagen der Datenwissenschaft.
+                <p class="mb-3">
+                    Entwickelt während eines Auslandssemesters in Japan, untersucht dieses Data-Science-Projekt
+                    kritisch, ob der
+                    kommerzielle Erfolg eines Songs allein auf seinen intrinsischen Audioqualitäten vorhergesagt werden
+                    kann. Auf Basis
+                    eines Kaggle-Datensatzes der meistgestreamten Songs und der Spotify Audio Features API
+                    implementierten wir eine
+                    robuste Pipeline zur Datenbereinigung und explorativen Analyse (EDA) in Python, um die Daten für
+                    eine lineare
+                    Regressionsmodellierung vorzubereiten.
                 </p>
 
-                <p class="mb-2">
-                    Das Ziel<br>
-                    Wir wollten herausfinden, ob der kommerzielle Erfolg eines Songs anhand seiner intrinsischen
-                    Audioqualitäten vorhergesagt werden kann. Wir nutzten einen Kaggle-Datensatz der meistgestreamten
-                    Songs von 2023, angereichert mit Metadaten aus der Spotify Audio Features API.
-                </p>
-
-                <p class="mb-2">
-                    Datenpipeline & Exploration<br>
-                    Wir implementierten einen Datenbereinigungs-Workflow, um fehlerhafte Einträge zu behandeln und
-                    kategoriale Variablen zu kodieren. Mithilfe explorativer Visualisierungstechniken bildeten wir
-                    Korrelationen ab, um den Datensatz für die lineare Regressionsmodellierung vorzubereiten.
-                </p>
-
-                <p class="mb-2">
-                    Kritische Analyse<br>
-                    Wir trainierten drei Regressionsmodelle, um die Vorhersagekraft des Datensatzes zu bewerten. Die
-                    Ergebnisse zeigten signifikante Einschränkungen sowohl bei den Daten als auch bei den Metriken auf:
-                </p>
-
-                <ul class="mb-3">
-                    <li>
-                        Die Grenzen aggregierter Merkmale: Modelle, die ausschließlich auf API-Metriken (z. B.
-                        'Tanzbarkeit', 'Energie') trainiert wurden, konnten die Stream-Zahlen nicht vorhersagen. Diese
-                        niedrigdimensionalen, reduktiven Zahlen können nicht den kulturellen Kontext oder die
-                        wahrgenommene Qualität erfassen, die das menschliche Engagement tatsächlich antreibt.
-                    </li>
-                    <br>
-                    <li>
-                        Das "Henne-Ei"-Problem: Während die Präsenz auf plattformübergreifenden Playlists der stärkste
-                        mathematische Prädiktor war, identifizierten wir dies als zirkuläre Korrelation. Popularität
-                        zwingt Songs auf Playlists, und Playlists erzwingen Popularität. Das Modell bildete im
-                        Wesentlichen die Verstärkungsschleife der Plattform ab, anstatt eine Formel für einen Hit
-                        aufzudecken.
-                    </li>
-                </ul>
-
-                <p class="mb-2">
-                    Schlussfolgerung & Branchenausblick<br>
-                    Während unser Modell mit öffentlichen Metadaten zu kämpfen hatte, stellen wir die Hypothese auf,
-                    dass der Chart-Erfolg trotzdem vorhersagbar sein könnte, dies würde jedoch den Zugang zu
-                    hochauflösenden,
-                    proprietären Daten erfordern (wie rohe Audiosignalverarbeitung oder granulare
-                    Benutzerbindungsprotokolle), die
-                    derzeit unter Verschluss sind.
-                </p>
-                <p class="mb-5">
-                    Die jüngste Schließung der Spotify Audio Features API (Nov 2024) unterstreicht diesen Wandel.
-                    Ursprünglich dazu gedacht, Drittentwicklern die Visualisierung von "Geschmacksprofilen" zu
-                    ermöglichen, wurden diese Datensätze unbeabsichtigt zum Treibstoff für KI-Training. Der Schritt der
-                    Industrie, diese öffentlichen Endpunkte abzuschaffen, signalisiert das Ende der Open-Data-Ära;
-                    Benutzerdaten sind kein gemeinsames Gut für Erkenntnisse mehr, sondern ein bewachtes Gut im
-                    Zeitalter der generativen KI.
+                <p class="mb-3">
+                    <strong>Das Training dreier Regressionsmodelle legte fundamentale Grenzen offen:</strong> Rein
+                    technische
+                    API-Metriken wie "Tanzbarkeit" besaßen keinerlei Vorhersagekraft für Stream-Zahlen, da sie den
+                    kulturellen
+                    Kontext eines Hits nicht erfassen können. Zudem entpuppte sich der stärkste mathematische Prädiktor,
+                    die
+                    Platzierung in Playlists, als zirkuläre Korrelation. Popularität bringt Songs auf Playlists, und
+                    Playlists erzwingen
+                    Popularität. Das Modell bildete somit weniger eine Formel für einen Hit ab, sondern vielmehr die
+                    Netzwerkeffekte
+                    und Mechanismen der Plattformökonomie. Diese Erkenntnis wird durch die Schließung der Spotify-API
+                    unterstrichen:
+                    Nutzerdaten sind im Zeitalter generativer KI kein offenes Forschungsgut mehr, sondern ein streng
+                    bewachtes Asset
+                    der Tech-Konzerne, das genau diese Netzwerkeffekte befeuert.
                 </p>
 
                 <div class="technical-summary mb-4 text-muted">

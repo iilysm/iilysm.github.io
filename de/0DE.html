@@ -106,43 +106,21 @@
                 <h2 class="h5">Cybersecurity CTF-Plattform</h2>
 
                 <p class="mb-3">
-                    Eine interaktive, mehrstufige Capture-The-Flag (CTF) Challenge, die Application Security
-                    und Network Security nahtlos verbindet. Das Highlight: Das gesamte Projekt ist als
-                    kompaktes "Infrastructure as Code"-Paket geschnürt. Studierende können die Challenge
-                    einfach als ZIP-Datei herunterladen, via Vagrant mit einem einzigen Befehl lokal starten und direkt
-                    loslegen.
+                    Diese interaktive, mehrstufige Capture-The-Flag (CTF) Challenge verbindet Application Security
+                    und Network Security zu einem realistischen Angriffsszenario. Das gesamte Projekt ist als
+                    kompaktes "Infrastructure as Code"-Paket konzipiert: Studierende können die Challenge
+                    einfach als ZIP-Datei herunterladen und via Vagrant mit einem einzigen Befehl lokal in einer
+                    isolierten Umgebung starten: echtes Plug & Play ohne komplexe Konfigurationen.
                 </p>
 
                 <p class="mb-3">
-                    <strong>Der Challenge-Flow: Vom Web ins Netzwerk</strong><br>
-                    Die Challenge führt die Spieler durch ein realistisches, mehrstufiges Angriffsszenario:
+                    <strong>Der Einstieg erfolgt über eine von mir entwickelte Django-Webanwendung,</strong> auf der
+                    klassische Web-Schwachstellen aufgespürt und ausgenutzt werden müssen. Dieser erfolgreiche
+                    Web-Exploit dient den Spielern als Sprungbrett in die Kommandozeile (CLI). Von dort aus
+                    analysieren und penetrieren sie mittels Nmap ein isoliertes Netzwerk aus drei virtuellen Maschinen.
+                    Durch diese Multi-VM-Topologie bleibt die gesamte Infrastruktur plattformübergreifend reproduzierbar
+                    und portabel.
                 </p>
-                <ul class="mb-3">
-                    <li class="mb-2"><strong>Application Security (Einstieg):</strong> Spieler starten auf einer von mir
-                        entwickelten Django-Webanwendung, auf der sie klassische Web-Schwachstellen aufspüren und
-                        ausnutzen müssen.</li>
-                    <li class="mb-2"><strong>Network Security (Übergang):</strong> Der erfolgreiche Web-Exploit dient
-                        als Sprungbrett in die Kommandozeile (CLI). Von dort aus analysieren und penetrieren die Spieler
-                        mittels Nmap ein isoliertes, VM-basiertes Netzwerk.</li>
-                </ul>
-
-                <p class="mb-3">
-                    <strong>Architektur & Implementierung</strong><br>
-                    Um die Netzwerk-Sicherheitsherausforderungen sicher zu isolieren, habe ich eine virtuelle
-                    Umgebung mit 3 VMs über Vagrant entworfen. Dieser Ansatz stellt sicher, dass die gesamte
-                    Infrastruktur
-                    reproduzierbar, portabel und plattformübergreifend ohne komplexe lokale Konfiguration läuft.
-                </p>
-
-                <p class="mb-1"><strong>Wichtige Features:</strong></p>
-                <ul class="mb-4">
-                    <li class="mb-1"><strong>Plug & Play für Studierende:</strong> Vollständig vorkonfiguriertes
-                        Multi-VM-Netzwerk für den sofortigen Start via Vagrant.</li>
-                    <li class="mb-1"><strong>Full-Stack-Kern:</strong> Eigenständige Plattform mit Python, Django, HTML
-                        und CSS zur Bereitstellung der Web-Security Challenges.</li>
-                    <li class="mb-1"><strong>Praxisnahe Offensive Security:</strong> Vermittelt das Verständnis für die
-                        Verkettung von Angriffen (Web Exploitation & Network Scanning).</li>
-                </ul>
 
                 <div class="technical-summary mb-4 text-muted">
                     <strong>Technische Details</strong>

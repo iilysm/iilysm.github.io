@@ -16,7 +16,7 @@ export default function ProjectCard({ project, flip }) {
 
       <div className="project-body">
         <p className="project-meta">
-          nr. {project.nr} — {project.year}
+          nr. {project.nr} · {project.year}
         </p>
         <h3>{project.title}</h3>
 

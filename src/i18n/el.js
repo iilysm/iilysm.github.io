@@ -1,4 +1,4 @@
-// Greek content — ported verbatim from the v1 el/ pages.
+// Greek content, ported verbatim from the v1 el/ pages.
 
 const el = {
   nav: {
@@ -9,13 +9,13 @@ const el = {
   hero: {
     kicker: '// καλώς ήρθατε στο portfolio μου',
     greeting: 'γεια, είμαι ο gianni.',
-    tagline: 'προγραμματιστής λογισμικού με έμφαση στην ασφάλεια.',
+    tagline: 'προγραμματιστής λογισμικού για web, mobile & διαδραστικά μέσα.',
     cta: 'προβολή όλων',
     intro:
-      'Γεια σας! Είμαι προγραμματιστής λογισμικού με πάθος για την κυβερνοασφάλεια και το full-stack ' +
-      'development. Ως μεταπτυχιακός φοιτητής Πληροφορικής, αναζητώ μια θέση εργασίας για φοιτητές ' +
-      '(working student) στον τομέα του security engineering ή της ανάπτυξης λογισμικού, ώστε να ' +
-      'μετατρέψω τη θεωρία σε ασφαλείς, πρακτικές λύσεις.',
+      'Γεια σας! Είμαι προγραμματιστής λογισμικού και μεταπτυχιακός φοιτητής Πληροφορικής. Αναπτύσσω ' +
+      'full-stack εφαρμογές ιστού, εφαρμογές iOS και μικτής πραγματικότητας, καθώς και διαδραστικές ' +
+      'εμπειρίες. Φροντίζω να είναι ασφαλείς και να σέβονται την ιδιωτικότητα. Αναζητώ μια θέση ' +
+      'working student στην ανάπτυξη λογισμικού, στην πληροφορική ή στο security engineering.',
   },
 
   about: {
@@ -28,17 +28,18 @@ const el = {
       'Είτε πρόκειται για την ανάπτυξη μιας εφαρμογής μικτής πραγματικότητας (Mixed Reality) για την ' +
         'πτυχιακή μου εργασία είτε για τον σχεδιασμό απαιτητικών δοκιμασιών Capture The Flag (CTF), ' +
         'λατρεύω να εμβαθύνω σε νέες τεχνολογίες και να εντοπίζω ευπάθειες.',
-      'Ο στόχος μου; Να κάνω τα ψηφιακά προϊόντα ασφαλέστερα και πιο αποδοτικά από τα θεμέλιά τους. ' +
-        'Συνεχίστε προς τα κάτω για να εξερευνήσετε τις σελίδες των έργων και να δείτε πώς το ' +
-        'εφαρμόζω αυτό στην πράξη.',
+      'Ο στόχος μου; Να φτιάχνω ψηφιακά προϊόντα που είναι από τα θεμέλιά τους καλοφτιαγμένα, ασφαλή ' +
+        'και πραγματικά χρήσιμα. Συνεχίστε προς τα κάτω για να εξερευνήσετε τις σελίδες των έργων και ' +
+        'να δείτε πώς το εφαρμόζω αυτό στην πράξη.',
     ],
-    skillsHeading: 'Technical Skills',
+    skillsHeading: 'τεχνικές δεξιότητες',
     skills: [
-      { label: 'languages', value: 'Python, C, Java, Swift, JavaScript, SQL' },
-      { label: 'full-stack & web', value: 'Django (REST APIs), HTML/CSS, MySQL, MongoDB' },
-      { label: 'security & ML', value: 'CTF (Hack The Box), Machine Learning (PyTorch, Transformers)' },
-      { label: 'mobile & 3d', value: 'iOS (SwiftUI, Combine), Unity, Reality Composer Pro, Blender' },
-      { label: 'devtools', value: 'Git, Unix/Linux, Bash Scripting' },
+      { label: 'γλώσσες προγραμματισμού', value: 'Python, C, JavaScript, Swift' },
+      { label: 'frameworks & βιβλιοθήκες', value: 'Django REST Framework, SwiftUI, Combine, NumPy, PyTorch' },
+      { label: 'βάσεις δεδομένων', value: 'MySQL, MongoDB' },
+      { label: 'εργαλεία & υποδομή', value: 'Git, Linux, Bash, Docker, Vagrant, Unity, Reality Composer Pro, Blender' },
+      { label: 'ασφάλεια', value: 'Hack The Box (CTF), Applied Security Lab (Top 10/150)' },
+      { label: 'ενδιαφέροντα', value: 'Παραγωγή Ηλεκτρονικής Μουσικής, Σύνθεση Ήχου (Ableton Live, Max/MSP), CTFs' },
     ],
   },
 
@@ -180,7 +181,7 @@ const el = {
         'Η εκπαίδευση τριών μοντέλων παλινδρόμησης ανέδειξε θεμελιώδεις περιορισμούς: Καθαρά τεχνικές ' +
           'μετρήσεις του API, όπως το "danceability", δεν είχαν καμία προγνωστική ικανότητα για τον αριθμό ' +
           'των streams, καθώς δεν μπορούν να αποτυπώσουν το πολιτισμικό πλαίσιο μιας επιτυχίας. Επιπλέον, ' +
-          'ο ισχυρότερος μαθηματικός προγνωστικός παράγοντας—η παρουσία σε playlists—αποδείχθηκε ότι ' +
+          'ο ισχυρότερος μαθηματικός προγνωστικός παράγοντας, η παρουσία σε playlists, αποδείχθηκε ότι ' +
           'αποτελεί μια κυκλική συσχέτιση. Η δημοτικότητα ωθεί τα τραγούδια στις λίστες, και οι λίστες ' +
           'επιβάλλουν τη δημοτικότητα. Έτσι, το μοντέλο ουσιαστικά αποτύπωσε τα φαινόμενα δικτύου ' +
           '(network effects) και τους μηχανισμούς της οικονομίας της πλατφόρμας (platform economy), αντί ' +
@@ -235,7 +236,7 @@ const el = {
 
   footer: {
     line1: 'designed & built by gianni',
-    before: 'v2 — react + vite · v1 φτιαγμένη με bootstrap στο μάθημα ',
+    before: 'v2 (react + vite) · v1 φτιαγμένη με bootstrap στο μάθημα ',
     linkText: '"Webtechnologien"',
     after: ' @ TU Berlin',
     courseUrl:

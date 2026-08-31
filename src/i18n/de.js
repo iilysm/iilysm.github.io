@@ -1,4 +1,4 @@
-// German content — ported verbatim from the v1 de/ pages.
+// German content, ported verbatim from the v1 de/ pages.
 
 const de = {
   nav: {
@@ -9,12 +9,13 @@ const de = {
   hero: {
     kicker: '// willkommen auf meinem portfolio',
     greeting: 'hi, ich bin gianni.',
-    tagline: 'softwareentwickler mit fokus auf security.',
+    tagline: 'softwareentwickler für web, mobile & interaktive medien.',
     cta: 'projekte ansehen',
     intro:
-      'Hi, ich bin Softwareentwickler mit einer Leidenschaft für Cybersicherheit und Full-Stack-Entwicklung. ' +
-      'Als Informatik-Masterstudent suche ich eine Werkstudentenstelle im Security Engineering oder ' +
-      'der Softwareentwicklung, um Theorie in sichere Praxis zu verwandeln.',
+      'Hi, ich bin Softwareentwickler und Informatik-Masterstudent. Ich entwickle Full-Stack-Webanwendungen, ' +
+      'iOS- und Mixed-Reality-Apps sowie interaktive Erlebnisse. Dabei lege ich Wert darauf, sie sicher und ' +
+      'datenschutzfreundlich zu gestalten. Ich suche eine Werkstudentenstelle in der Softwareentwicklung, ' +
+      'IT oder im Security Engineering.',
   },
 
   about: {
@@ -26,16 +27,18 @@ const de = {
       'Ob beim Entwickeln einer Mixed Reality-Anwendung für meine Bachelorarbeit oder beim ' +
         'Konstruieren kniffliger Capture-The-Flag (CTF) Challenges, ich liebe es, mich in neue ' +
         'Technologien hineinzufuchsen und Schwachstellen aufzudecken.',
-      'Mein Ziel? Digitale Produkte von Grund auf sicherer und effizienter zu machen. Scrolle einfach ' +
-        'nach unten, um die einzelnen Projekte zu erkunden und zu sehen, wie ich das in die Praxis umsetze.',
+      'Mein Ziel? Digitale Produkte zu bauen, die von Grund auf durchdacht, sicher und wirklich nützlich ' +
+        'sind. Scrolle einfach nach unten, um die einzelnen Projekte zu erkunden und zu sehen, wie ich ' +
+        'das in die Praxis umsetze.',
     ],
     skillsHeading: 'IT-Kenntnisse',
     skills: [
-      { label: 'Sprachen', value: 'Python, C, Java, Swift, JavaScript, SQL' },
-      { label: 'full-stack & web', value: 'Django (REST APIs), HTML/CSS, MySQL, MongoDB' },
-      { label: 'security & ML', value: 'CTF (Hack The Box), Machine Learning (PyTorch, Transformers)' },
-      { label: 'mobile & 3d', value: 'iOS (SwiftUI, Combine), Unity, Reality Composer Pro, Blender' },
-      { label: 'devtools', value: 'Git, Unix/Linux, Bash Scripting' },
+      { label: 'Programmiersprachen', value: 'Python, C, JavaScript, Swift' },
+      { label: 'Frameworks & Bibliotheken', value: 'Django REST Framework, SwiftUI, Combine, NumPy, PyTorch' },
+      { label: 'Datenbanken', value: 'MySQL, MongoDB' },
+      { label: 'Tools & Infrastruktur', value: 'Git, Linux, Bash, Docker, Vagrant, Unity, Reality Composer Pro, Blender' },
+      { label: 'Security', value: 'Hack The Box (CTF), Applied Security Lab (Top 10/150)' },
+      { label: 'Interessen', value: 'Elektronische Musikproduktion, Klangsynthese (Ableton Live, Max/MSP), CTFs' },
     ],
   },
 
@@ -226,7 +229,7 @@ const de = {
 
   footer: {
     line1: 'designed & built by gianni',
-    before: 'v2 — react + vite · v1 mit bootstrap gebaut im Kurs ',
+    before: 'v2 (react + vite) · v1 mit bootstrap gebaut im Kurs ',
     linkText: '"Webtechnologien"',
     after: ' @ TU Berlin',
     courseUrl:

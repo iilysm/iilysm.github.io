@@ -13,12 +13,13 @@ const en = {
   hero: {
     kicker: '// welcome to my portfolio',
     greeting: "hi, i'm gianni.",
-    tagline: 'security-minded software developer.',
+    tagline: 'software developer for web, mobile & interactive media.',
     cta: 'view projects',
     intro:
-      "Hi, I'm a software developer with a strong passion for cybersecurity and full-stack development. " +
-      "As a computer science master's student, I am looking for a working student position in security " +
-      'engineering or software development to turn theory into secure, real-world solutions.',
+      "Hi, I'm a software developer and computer science master's student. I build full-stack web " +
+      'applications, iOS and mixed-reality apps, and interactive experiences. I care about making ' +
+      "them secure and privacy-respecting. I'm looking for a working student position in software " +
+      'development, IT, or security engineering.',
   },
 
   about: {
@@ -30,16 +31,17 @@ const en = {
       "Whether developing a mixed-reality application for my bachelor's thesis or constructing " +
         'challenging Capture The Flag (CTF) tasks, I love sinking my teeth into new technologies and ' +
         'uncovering vulnerabilities.',
-      'My goal? To make digital products fundamentally more secure and efficient from the ground up. ' +
-        'Scroll down to explore the individual projects and see how I apply this in practice.',
+      'My goal? To build digital products that are well-crafted, secure, and genuinely useful from the ' +
+        'ground up. Scroll down to explore the individual projects and see how I apply this in practice.',
     ],
     skillsHeading: 'technical skills',
     skills: [
-      { label: 'languages', value: 'Python, C, Java, Swift, JavaScript, SQL' },
-      { label: 'full-stack & web', value: 'Django (REST APIs), HTML/CSS, MySQL, MongoDB' },
-      { label: 'security & ML', value: 'CTF (Hack The Box), Machine Learning (PyTorch, Transformers)' },
-      { label: 'mobile & 3d', value: 'iOS (SwiftUI, Combine), Unity, Reality Composer Pro, Blender' },
-      { label: 'devtools', value: 'Git, Unix/Linux, Bash Scripting' },
+      { label: 'programming languages', value: 'Python, C, JavaScript, Swift' },
+      { label: 'frameworks & libraries', value: 'Django REST Framework, SwiftUI, Combine, NumPy, PyTorch' },
+      { label: 'databases', value: 'MySQL, MongoDB' },
+      { label: 'tools & infrastructure', value: 'Git, Linux, Bash, Docker, Vagrant, Unity, Reality Composer Pro, Blender' },
+      { label: 'security', value: 'Hack The Box (CTF), Applied Security Lab (Top 10/150)' },
+      { label: 'interests', value: 'Electronic Music Production, Sound Synthesis (Ableton Live, Max/MSP), CTFs' },
     ],
   },
 
@@ -175,7 +177,7 @@ const en = {
           'for linear regression modeling.',
         'Training three regression models revealed fundamental limitations: Purely technical API metrics like ' +
           '"danceability" had no predictive power for stream counts, as they fail to capture the cultural context ' +
-          'of a hit. Furthermore, the strongest mathematical predictor—playlist placement—turned out to be a ' +
+          'of a hit. Furthermore, the strongest mathematical predictor, playlist placement, turned out to be a ' +
           'circular correlation. Popularity pushes songs onto playlists, and playlists drive popularity. The model ' +
           'essentially mapped the network effects and mechanisms of the platform economy, rather than uncovering ' +
           'a formula for a hit. This insight is underscored by the recent closure of the Spotify API: In the era ' +
@@ -227,7 +229,7 @@ const en = {
 
   footer: {
     line1: 'designed & built by gianni',
-    before: 'v2 — react + vite · v1 built with bootstrap in ',
+    before: 'v2 (react + vite) · v1 built with bootstrap in ',
     linkText: '"Webtechnologien"',
     after: ' @ TU Berlin',
     courseUrl:
